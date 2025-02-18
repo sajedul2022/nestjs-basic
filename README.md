@@ -35,15 +35,14 @@ $ docker exec -it container_id sh
 
 ## Create Module & Migration 
 
-# Create Module
 ```bash
+# Create Module
 $ npm run generate:crud notes
-```
 
 # Create Migration Table File
 ```bash
 $ npm run migration:generate --name="createNoticeTable"
-```
+
 # Migration Run
 ```bash
 npm run migration:run
@@ -61,6 +60,4 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-
-## Resources
 
