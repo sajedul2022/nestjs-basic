@@ -1,0 +1,6 @@
+export enum ADMIN_ROLE {
+  SUPER_ADMIN = 'super_admin',
+  ADMIN = 'admin',
+  ACCOUNTANT = 'accountant',
+  RESERVATION = 'reservation',
+}
