@@ -40,11 +40,9 @@ $ docker exec -it container_id sh
 $ npm run generate:crud notes
 
 # Create Migration Table File
-```bash
 $ npm run migration:generate --name="createNoticeTable"
 
 # Migration Run
-```bash
 npm run migration:run
 ```
 
